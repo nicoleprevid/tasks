@@ -1,12 +1,15 @@
-# Getting Started with Create React App
+# Aplicação de Gerenciamento de Tarefas (To-Do List)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma aplicação de gerenciamento de tarefas desenvolvida em React com TypeScript. Com esta aplicação, os usuários podem adicionar, excluir, editar e marcar tarefas como concluídas.
 
-## Available Scripts
+## Funcionalidades Principais
 
-In the project directory, you can run:
+- Adicionar uma nova tarefa.
+- Excluir uma tarefa.
+- Editar uma tarefa existente.
+- Marcar tarefas como concluídas.
 
-### `npm start`
+## Tecnologias Utilizadas
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,15 +17,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+Antes de executar a aplicação, certifique-se de ter o Node.js e o npm (Node Package Manager) instalados na sua máquina.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Iniciar o Projeto
 
-### `npm run build`
+1. Clone este repositório:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
