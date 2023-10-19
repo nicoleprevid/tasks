@@ -9,7 +9,7 @@ h1 {
 }
 
 .container {
-  margin: 20px auto;
+  margin: 30px auto;
   max-width: 400px;
   background-color: #fff;
   border-radius: 5px;
@@ -27,13 +27,18 @@ input[type="text"] {
 
 button {
   padding: 10px 15px;
-  background-color: #007bff;
+  background-color:  #de8f67;
   color: #fff;
   border: none;
   border-radius: 3px;
   cursor: pointer;
 }
+button:hover {
+  background-color: #fdc7ac;
+  color:  #ff5500;
+  transition: .5s all;   
 
+}
 ul {
   list-style: none;
   padding: 0;
@@ -61,14 +66,48 @@ li select {
 
 li.completed {
   text-decoration: line-through;
-  color: #ff69b4;
+  color: #dca4c0;
 }
 
 button.remove {
-  background-color: #ff69b4;
+  background-color: #ff8a8ae9;
   color: #fff;
   padding: 5px 10px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
 }
+button.remove:hover {
+  background-color: #ffa0b1;
+  color:  #ff0080;
+  transition: .5s all;   
+
+}
+/* 
+.check {
+  appearance: none;
+  background-color:  #ffeff7;
+  border:#dca4c0;
+  width: 24px;
+  height: 24px;
+  margin: 1px0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 #6469ff4d;
+  padding: 3px;
+
+}
+
+.check:hover{
+  background-color: #ffc3ce;
+  color:  #feadd5;
+  transition: .5s all; 
+}
+.check:checked {
+  background-color: #e95d76;
+  color:  #ffffff;
+  transition: .5s all; 
+}
+.checkText{
+  color:  #a41b1b;
+
+} */
